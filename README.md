@@ -16,4 +16,5 @@
 
 ### API Link
 
-- https://node-currying-creativec.onrender.com
+- (/) GET : https://node-currying-creativec.onrender.com
+- (/currying) POST : https://node-currying-creativec.onrender.com/currying
