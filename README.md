@@ -16,6 +16,4 @@
 
 ### API Link
 
-### Demo
-
-#### Endpoints
+- https://node-currying-creativec.onrender.com
