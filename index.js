@@ -12,7 +12,11 @@ app.listen(
     () => console.log(`it's alive on http://localhost:${PORT}/`)
 )
 
-app.post('/', (req, res) => {
+app.get('/', (req, res) => {
+    return res.status(200).json("Welcome to node-currying project");
+});
+
+app.post('/currying', (req, res) => {
     const { number1, number2, number3 } = req.body;
 
     const value = currying(number1)(number2)(number3);
